@@ -1,0 +1,7 @@
+﻿@page "/"
+@inject IHttpContextAccessor Context
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, @Context.HttpContext?.User?.Identity?.Name!</h1>
+
+Welcome to your new app.
